@@ -1,0 +1,78 @@
+.add-user-form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #b6f0a6; /* Mindaro background */
+  color: #2c3e50; /* Black bean text color */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.add-user-form h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #27ae60; /* Greenish color */
+  margin-bottom: 20px;
+}
+
+.add-user-form .form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-user-form .form-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.add-user-form .form-control {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.add-user-form .form-control:focus {
+  border-color: #27ae60;
+  box-shadow: 0 0 5px rgba(39, 174, 96, 0.5);
+}
+
+.add-user-form select {
+  background-color: #fff;
+}
+
+.add-user-form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-user-form button:hover {
+  background-color: #2ecc71;
+}
+
+.add-user-form .loading,
+.add-user-form .error {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.add-user-form .loading {
+  color: #27ae60;
+}
+
+.add-user-form .error {
+  color: #e74c3c;
+}

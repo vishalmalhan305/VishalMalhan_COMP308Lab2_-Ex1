@@ -1,0 +1,76 @@
+/* Login.css */
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--tea-green);
+  color: var(--black-bean);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-form Form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form Form .form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.login-form Form .form-control {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--black-bean);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.login-form Form .btn-primary {
+  background-color: var(--black-bean);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: var(--white);
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem; /* Added margin-top */
+}
+
+.login-form Form .btn-primary:hover {
+  background-color: var(--black-bean-dark);
+}
+
+.login-form p {
+  margin-top: 10px;
+  color: red;
+  font-size: 0.9rem;
+}
+
+.login-form Form .form-label {
+  font-weight: bold;
+  margin-bottom: 1rem; /* Increased margin-bottom */
+  display: block;
+}
+
+.login-form Form .form-control:focus {
+  border-color: var(--black-bean-dark);
+  outline: none;
+  box-shadow: 0 0 5px rgba(61, 12, 2, 0.5);
+}
+
+.login-form Form .form-control::placeholder {
+  color: #999;
+}
+
+.login-form Form .btn-primary:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.login-form Form .btn-primary:disabled:hover {
+  background-color: #ccc;
+}

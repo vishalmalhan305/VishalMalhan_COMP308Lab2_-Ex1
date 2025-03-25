@@ -1,0 +1,87 @@
+.add-team-form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f1c40f; /* Straw yellow background */
+  color: #2c3e50; /* Black bean text color */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.add-team-form h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #e67e22;
+  margin-bottom: 20px;
+}
+
+.add-team-form .form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-team-form .form-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.add-team-form .form-control {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.add-team-form .form-control:focus {
+  border-color: #e67e22;
+  box-shadow: 0 0 5px rgba(230, 126, 34, 0.5);
+}
+
+.add-team-form select {
+  background-color: #fff;
+}
+
+.add-team-form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-team-form button:hover {
+  background-color: #d35400;
+}
+
+.add-team-form .loading,
+.add-team-form .error {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.add-team-form .loading {
+  color: #e67e22;
+}
+
+.add-team-form .error {
+  color: #e74c3c;
+}
+
+/* New styles for custom field and members field */
+.add-team-form .form-group.custom-field {
+  margin-bottom: 20px;
+}
+
+.add-team-form .form-group.members-field {
+  margin-bottom: 20px;
+}

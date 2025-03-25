@@ -1,0 +1,39 @@
+.teams-page {
+  padding: 20px;
+  background-color: var(--tea-green);
+  color: var(--black-bean);
+}
+
+.teams-page h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.teams-page table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.teams-page th, .teams-page td {
+  border: 1px solid var(--black-bean);
+  padding: 10px;
+  text-align: left;
+}
+
+.teams-page th {
+  background-color: var(--black-bean);
+  color: var(--tea-green);
+}
+
+.teams-page tr:nth-child(even) {
+  background-color: var(--tea-green-light);
+}
+
+.teams-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.teams-page ul li {
+  margin-bottom: 10px;
+}

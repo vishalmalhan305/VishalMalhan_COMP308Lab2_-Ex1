@@ -1,0 +1,78 @@
+.add-project-form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f9e1b2; /* Old gold background */
+  color: #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.add-project-form h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #f57c00;
+  margin-bottom: 20px;
+}
+
+.add-project-form .form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-project-form .form-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.add-project-form .form-control {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.add-project-form .form-control:focus {
+  border-color: #f57c00;
+  box-shadow: 0 0 5px rgba(245, 124, 0, 0.5);
+}
+
+.add-project-form select {
+  background-color: #fff;
+}
+
+.add-project-form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  background-color: #f57c00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-project-form button:hover {
+  background-color: #e65100;
+}
+
+.add-project-form .loading,
+.add-project-form .error {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.add-project-form .loading {
+  color: #f57c00;
+}
+
+.add-project-form .error {
+  color: #d32f2f;
+}

@@ -1,0 +1,38 @@
+.projects-page {
+  padding: 20px;
+  background-color: var(--mindaro);
+  color: var(--black-bean);
+}
+
+.projects-page h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.projects-page table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.projects-page th, .projects-page td {
+  border: 1px solid var(--black-bean);
+  padding: 10px;
+  text-align: left;
+}
+
+.projects-page th {
+  background-color: var(--black-bean);
+  color: var(--tea-green);
+}
+
+.projects-page tr:nth-child(even) {
+  background-color: var(--tea-green-light);
+}
+.projects-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projects-page ul li {
+  margin-bottom: 10px;
+}

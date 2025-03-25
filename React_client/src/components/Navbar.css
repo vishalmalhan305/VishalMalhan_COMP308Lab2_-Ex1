@@ -1,0 +1,94 @@
+.custom-navbar {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 0;
+  position: var(--navbar-position, relative); /* Dynamic position */
+  width: 100%;
+  z-index: 1000;
+}
+
+.custom-navbar .navbar-brand {
+  font-weight: bold;
+  color: var(--old-gold) !important; /* Custom brand color */
+}
+
+.custom-navbar .nav-link {
+  color: var(--black) !important; /* Custom link color */
+  margin-right: 15px; /* Add spacing between nav links */
+}
+
+.custom-navbar .nav-link:hover {
+  color: var(--old-gold) !important; /* Custom link hover color */
+}
+
+.custom-navbar .navbar-text a {
+  color: var(--old-gold) !important; /* Custom text link color */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-right {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Add spacing between elements */
+}
+
+.navbar-right a {
+  color: white;
+  text-decoration: none;
+}
+
+.login-button, .logout-button {
+  background-color: var(--black-bean);
+  color: var(--white);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover, .logout-button:hover {
+  background-color: var(--black-bean-dark);
+}
+
+.login-button:focus, .logout-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(61, 12, 2, 0.5);
+}
